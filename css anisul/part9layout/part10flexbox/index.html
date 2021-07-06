@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Layout</title>
+    <style>
+        .container{
+            background-color: lightcoral;
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-direction: row;
+            flex-direction: column; */
+            flex-flow: wrap row;
+            justify-content: center;
+            justify-content: space-around;
+            justify-content: center;
+            min-height: 300px;
+            align-items: center;
+        }
+        .container > div{
+            /* width: 100px; */
+            background-color:lightseagreen;
+            margin:40px;
+            padding: 20px;
+            font-size: 35px;
+        }
+        .shadow > h1{
+            text-shadow: 5px 5px 5px red;
+        }
+        .shadow > p{
+            width: 200px;
+            background-color: brown;
+            border: solid green 2px;
+            box-shadow: 30px -15px 5px teal;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="div1">
+            div1
+        </div>
+        <div class="div2">
+            div2
+        </div>
+        <div class="div3">
+            div3
+        </div>
+        <div class="div4">
+            div4
+        </div>
+        <div class="div1">div5</div>
+        <div class="div2">div6</div>
+        <div class="div3">div7</div>
+        <div class="div4">div8</div>
+        
+    </div>
+    
+    <hr>
+    <div class="shadow">
+        <h1>Bangladesh</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatibus. Magni vero cupiditate officia quas omnis dolor harum praesentium maiores voluptatum ullam voluptatem, facere dolores similique eius doloribus aspernatur sit. Illum, consequatur error quasi non soluta deserunt iure neque earum?.</p>
+    </div>
+</body>
+</html>

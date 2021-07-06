@@ -1,0 +1,11 @@
+body {
+    /* background-image : linear-gradient(to right,red ,green); */
+    color: #2bc72b;
+    background-repeat: no-repeat;
+}
+div {
+    width: 600px;
+    /* background:linear-gradient(to right,red ,green,blue,#12fe11); */
+    /* background:radial-gradient(to right,red ,green,blue,#12fe11); */
+    background: radial-gradient(circle,red,green,yellow);
+}

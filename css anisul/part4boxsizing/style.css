@@ -1,0 +1,14 @@
+.div1 {
+    float: left;
+    background-color: brown;
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.div2{
+    float:left;
+    background-color: green;
+    height: 300px;
+    width: 50%;
+}

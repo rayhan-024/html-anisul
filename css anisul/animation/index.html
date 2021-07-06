@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img{
+            max-height: 200px;
+            max-width: 200px;
+            border: 5px solid black;
+            display: block;
+            margin: 0 auto;
+            margin-top: 100px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        img:hover{
+            animation-name: img-anim;
+            animation-duration: 3s;
+        }
+        
+        @keyframes img-anim{
+            from {
+                max-width: 200px;
+                max-height: 200px;
+                border-color: red;
+            }
+            to{
+                max-width: 300px;
+                max-height: 300px;
+                border-color: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="../image/rajnondi.jpg" alt="">
+    <img src="../image/rayhan.jpg" alt="">
+    <img src="../image/liza.jpg" alt="">
+    <img src="../image/rajnondi.jpg" alt="">
+</body>
+</html>

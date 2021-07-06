@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calc{
+    min-height: 400px;
+    width: 400px;
+    background-color: teal;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.calc:hover{
+    box-shadow: 5px -5px 40px teal
+}
+input{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin:12px;
+    letter-spacing: 3px;
+    text-align: right;
+    border: none;
+    border-radius:10px;
+   
+}
+
+.calc > div >  div{
+    text-align: center;
+}
+.calc > div >  div > button{
+    height: 70px;
+    width: 70px;
+    padding: 15px;
+    margin: 12px 3px;
+    font-size: 20px;
+    text-align: top;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.calc > div >  .div1 > button{
+    background-color: #12dd33;
+}
+.calc > div >  .div2 > button{
+    background-color: #12dd33;
+}
+.calc > div >  .div3 > button{
+    background-color: #12dd33;
+}
+.calc > div >  .div4 > button{
+    background-color: #12dd33;
+}
+.calc > div >  .div5 > button{
+    background-color: #12dd33;
+}
+.calc > div >  div button:hover{
+    background-color: #501ca3;
+}
+
+.calc > div >  div > .sign{
+    background-color: #ccff11;
+}
+.calc > div >  .div5 .equal{
+    background-color: #ff1234;
+}
